@@ -1,0 +1,13 @@
+
+function is_same(name1, name2) {
+    // write your code here
+    if(name1 && name2 === name1 && name2){
+        return 'متشابهتين'
+    }else{
+        return 'غير متشابهتين'
+    }
+}
+
+
+
+https://coderhub.sa/challenges/4d794268-cf59-461d-803a-1a009ba50ff7/view?language=JavaScript
