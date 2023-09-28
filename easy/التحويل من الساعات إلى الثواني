@@ -1,0 +1,12 @@
+
+function convert_to_seconds(hours) {
+    // write your code here
+return hours * 3600
+
+}
+
+
+
+
+
+https://coderhub.sa/challenges/0818c211-add3-4327-8d2d-de0a618d75d9/view?language=JavaScript
