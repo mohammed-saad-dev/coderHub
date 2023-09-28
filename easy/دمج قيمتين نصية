@@ -1,0 +1,11 @@
+
+function concat_names(name1, name2) {
+    // write your code here
+return `${name1} ${name2}`
+
+}
+
+
+
+
+https://coderhub.sa/challenges/4a03eba8-1000-449b-8701-985989f71c4f/view?language=JavaScript
