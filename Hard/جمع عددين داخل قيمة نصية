@@ -1,0 +1,18 @@
+
+function addStrNums(num1, num2) {
+    // write your code here
+    if (isNaN(num1) || isNaN(num2)) {
+        let result = -1
+        return result.toString();
+    } else if (!isNaN(num1) && !isNaN(num2)){
+        let result =  +num1 + +num2
+        return result.toString()
+    
+    }
+}
+
+console.log(addStrNums("10","m"))
+
+
+
+https://coderhub.sa/challenges/033163c2-91be-4f1b-b0c0-01aff0811448/view?language=JavaScript
