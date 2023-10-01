@@ -1,0 +1,14 @@
+function say_hi_bye(name, num) {
+    // write your code here
+if(num == 0) {
+    num = "Bye "
+    return `${num}${name}`
+}else if(num == 1) {
+    num = 'Hi'
+    return `${num} ${name}`
+}
+}
+
+
+
+https://coderhub.sa/challenges/7a142321-72fe-42f8-9a5b-61774fc95e70/view?language=JavaScript
