@@ -1,0 +1,25 @@
+
+function find_prefix(words, text) {
+    // write your code here
+let result = []; //[ "Re", "Re", "Ro", "Re" ]
+    let newResult = [];
+
+    let lower = text.charAt(0).toLowerCase() + text.slice(1); 
+    let upper = text.charAt(0).toUpperCase() + text.slice(1); 
+    // full result
+    for(let i = 0; i < words.length ; i++){
+        result.push(words[i].slice(0, text.length))
+    }
+    //full newResult
+    let foundMatch = false;
+    for(let i = 0; i < result.length; i++){
+        if(result[i] == upper || result[i] == lower){
+            newResult.push(words[i]) ; 
+            foundMatch = true ; 
+        }
+    }
+    if(!foundMatch){
+        newResult.push("No matches found")
+    }
+    return newResult
+}
