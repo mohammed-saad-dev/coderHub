@@ -1,0 +1,23 @@
+
+function str_len_comparison(words) {
+    // write your code here
+if(words.length == 1){
+    return false
+}
+    //this code add the defferent items
+    let lenghtOfWords = [];
+    for(let i = 0; i < words.length; i++) {
+        lenghtOfWords.push(words[i].length)
+    }
+
+    let result = [];
+    for(let i = 0; i < words.length; i++) {
+        if(! result.includes(lenghtOfWords[i])){
+            result.push(lenghtOfWords[i]);
+        }
+    }
+
+if(result.length == 1){
+    return true
+}else return false
+}
